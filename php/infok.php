@@ -90,7 +90,6 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
         <footer>
             <div class="row">
                 <div class="col-md-6 col-lg-4 offset-lg-1 mt-2">
@@ -138,7 +137,6 @@
             }
         </script>
     </body>
-=======
     </div>
     
 <div class="container">
@@ -255,5 +253,4 @@ else {
 </script>
 
 </body>
->>>>>>> dfd150c29a96074a834f5f03a4cab76469b49b04
 </html>
