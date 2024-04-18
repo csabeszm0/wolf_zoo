@@ -137,8 +137,6 @@
             }
         </script>
     </body>
-<<<<<<< HEAD
-=======
     </div>
     
 <div class="container">
@@ -255,5 +253,4 @@ else {
 </script>
 
 </body>
->>>>>>> dbe793acbf7bc355da81252462846c63a9865443
 </html>
