@@ -57,7 +57,7 @@
       require('connect.php');
       dbcon();
       
-      $query='';
+      $query='SELECT * FROM `menu`';
       $eredm=mysqli_query($con,$query);
       echo"<h2 class='text-center'>Panda-büfé kínálata</h2>";
       echo"<table class='table table-hover'>
@@ -73,7 +73,7 @@
       }
       echo"</table>";
 
-      $query='';
+      $query='SELECT * FROM `etetes`';
       $eredm=mysqli_query($con,$query);
       echo"<h2 class='text-center'>Látványetetések</h2>";
       echo"<table class='table table-hover'>

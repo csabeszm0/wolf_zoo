@@ -4,7 +4,7 @@
         $host="localhost";
         $user="root";
         $pass="";
-        $db="";
+        $db="vadaspark";
         global $con;
 
     $con=mysqli_connect($host,$user,$pass,$db) or die("Hiba kapcsolódáskor!");
