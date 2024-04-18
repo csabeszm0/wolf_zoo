@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body:not(#home), .modal-content{
+    background-color: #fbeed8;
+}
+
+.modal-header, .modal-footer{
+    background-color: #FFF;
+}
+.modal-title{
+    color:white;
+}
+
+.card{
+    color: #0243bb;
+    border: 1px solid #0243bb;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+h5{
+    color: #0243bb;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px #0243bb;
+}
+
+h1{
+   text-align: center;
+}
+
+/*kivéve a home h1-e*/
+h1:not(#home h1){
+    color: #0243bb;
+}
+
+.navbar{
+    background-color: #0243bb;
+}
+
+header{
+   
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home{
+      height: 100vh;
+      
+}  
+
+hr{
+    size: 0.5rem;
+    width: 200px;
+    margin: auto;
+}
+
+.rend-img{
+    border: 1px solid #0243bb;
+    border-radius: 4px;
+}
+
+h2:not(footer h2){
+    color: #0243bb;
+}
+
+.sorki{
+    text-align: justify;
+}
+
+footer{
+    background-color: #0243bb;
+    color: white;
+    padding: 10px;
+    
+}
+    
+footer li{
+    list-style-type:none;
+}
+    
+footer li>img{
+    width: 15px;
+    margin-right: 15px;
+}
