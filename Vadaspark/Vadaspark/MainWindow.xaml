@@ -1,0 +1,43 @@
+﻿<Window x:Class="Vadaspark.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vadaspark"
+        mc:Ignorable="d"
+        Title="Vadaspark" Height="765.271" Width="859.972" Background="#FFFBEED8">
+    <Grid Margin="0,0,2,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Érkező állatok" HorizontalAlignment="Left" Height="40" Margin="103,117,0,0" VerticalAlignment="Top" Width="139" FontSize="20"/>
+        <ListBox x:Name="arrive" HorizontalAlignment="Left" Height="425" Margin="10,157,0,0" VerticalAlignment="Top" Width="308"/>
+        <Label Content="Állat neve: " HorizontalAlignment="Left" Height="24" Margin="338,133,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.735,-0.526"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="30" Margin="338,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Fajtája:" HorizontalAlignment="Left" Height="26" Margin="338,189,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="type" HorizontalAlignment="Left" Height="30" Margin="338,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.958,-0.733"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Height="26" Margin="338,342,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Születési dátum:" HorizontalAlignment="Left" Height="28" Margin="338,314,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Neme:" HorizontalAlignment="Left" Margin="339,261,0,0" VerticalAlignment="Top" Width="68" Height="28"/>
+        <RadioButton x:Name="male" Content="Hím" HorizontalAlignment="Left" Height="20" Margin="339,289,0,0" VerticalAlignment="Top" Width="61"/>
+        <RadioButton x:Name="female" Content="Nőstény" HorizontalAlignment="Left" Height="20" Margin="423,289,0,0" VerticalAlignment="Top" Width="79"/>
+        <TextBox x:Name="color" HorizontalAlignment="Left" Height="32" Margin="338,550,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Színe:" HorizontalAlignment="Left" Height="24" Margin="338,526,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.735,-0.526"/>
+        <TextBox x:Name="from" HorizontalAlignment="Left" Height="32" Margin="338,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <Label Content="Honnan jött:" HorizontalAlignment="Left" Height="24" Margin="338,383,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.735,-0.526"/>
+        <TextBox x:Name="eating" HorizontalAlignment="Left" Height="32" Margin="338,480,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" RenderTransformOrigin="0.476,-0.141"/>
+        <Label Content="Wolf Zoo" HorizontalAlignment="Left" Height="80" Margin="339,10,0,0" VerticalAlignment="Top" Width="164" FontSize="36"/>
+        <Image HorizontalAlignment="Left" Height="355" VerticalAlignment="Top" Width="298" Source="elefant.jpg" Margin="529,157,0,0"/>
+        <Label Content="Táplálkozása:" HorizontalAlignment="Left" Height="24" Margin="338,456,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.735,-0.526"/>
+        <Button x:Name="exit" Content="Kilépés" HorizontalAlignment="Left" Height="54" Margin="653,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="exit_Click"/>
+        <Label Content="Állatok száma:" HorizontalAlignment="Left" Height="34" Margin="10,620,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
+        <Label x:Name="number" Content="0" HorizontalAlignment="Left" Height="56" Margin="129,610,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold"/>
+        <Label Content="db" HorizontalAlignment="Left" Height="56" Margin="191,610,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="load" Content="Állatok betöltése" HorizontalAlignment="Left" Height="54" Margin="289,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="load_Click"/>
+        <Button x:Name="delete" Content="Állat törlése" HorizontalAlignment="Left" Height="54" Margin="468,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="delete_Click"/>
+        <Button x:Name="add" Content="Adatok hozzáadása" HorizontalAlignment="Left" Height="54" Margin="581,528,0,0" VerticalAlignment="Top" Width="197" FontSize="20" Click="add_Click"/>
+
+    </Grid>
+</Window>
