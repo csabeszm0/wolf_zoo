@@ -32,14 +32,15 @@ namespace Vadaspark
             StreamWriter sw = new StreamWriter("nyilvantartas.txt", true);
             
 
-            sw.WriteLine($"{name.Text}, {type.Text}, {male.IsChecked}, {female.IsChecked}, {date.SelectedDate}, {from.Text}, {eating.Text}, {color.Text}");
-            MessageBox.Show("Adatok hozzá lettek adva a listához.");
-
             if (name.Text == "" || type.Text == "" || date.SelectedDate == null || from.Text == "" || eating.Text == "" || color.Text == "")
             {
                 MessageBox.Show("Nem adta meg a teljes információkat!");
             }
-            
+            else
+            {
+                sw.WriteLine($"{name.Text}, {type.Text}, {male.IsChecked}, {female.IsChecked}, {date.SelectedDate}, {from.Text}, {eating.Text}, {color.Text}");
+                MessageBox.Show("Adatok hozzá lettek adva a listához.");
+            }
                     
             sw.Flush();
             sw.Close();
@@ -53,18 +54,8 @@ namespace Vadaspark
 
         private void load_Click(object sender, RoutedEventArgs e)
         {
-            /*
-           StreamWriter sw = new StreamWriter("nyilvantartas.txt");
-
-           foreach (var item in arrive.Items)
-           {
-               sw.WriteLine(item.ToString());
-           }
-           sw.Flush();
-           sw.Close();
-
-           MessageBox.Show("Az érkező állatok nyilvántartását a nyilvantartas.txt fájlba írtam!");
-           */
+            int db = 0;
+            int totalValue = 0;
 
             arrive.Items.Clear();
 

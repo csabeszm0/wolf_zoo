@@ -1,3 +1,5 @@
 Eli, elefánt, False, True, 2024. 04. 01. 0:00:00, Afrika, növényevő, szürke
 Vuk, róka, True, False, 2023. 08. 16. 0:00:00, Magyarország, húsevő, vörös
 Franklin Clinton, teknős, True, False, 2013. 09. 17. 0:00:00, Los Santos, mindenevő, zöld, , False, False, , , , 
+Rico, pingvin, True, False, 2023. 08. 09. 0:00:00, Madagaszkár, hal, fehér-fekete
+

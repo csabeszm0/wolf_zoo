@@ -33,7 +33,7 @@
         <Label Content="Táplálkozása:" HorizontalAlignment="Left" Height="24" Margin="338,456,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.735,-0.526"/>
         <Button x:Name="exit" Content="Kilépés" HorizontalAlignment="Left" Height="54" Margin="653,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="exit_Click"/>
         <Label Content="Állatok száma:" HorizontalAlignment="Left" Height="34" Margin="10,620,0,0" VerticalAlignment="Top" Width="119" FontSize="16"/>
-        <Label x:Name="number" Content="0" HorizontalAlignment="Left" Height="56" Margin="129,610,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="num" Content="0" HorizontalAlignment="Left" Height="56" Margin="129,610,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold"/>
         <Label Content="db" HorizontalAlignment="Left" Height="56" Margin="191,610,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="load" Content="Állatok betöltése" HorizontalAlignment="Left" Height="54" Margin="289,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="load_Click"/>
         <Button x:Name="delete" Content="Állat törlése" HorizontalAlignment="Left" Height="54" Margin="468,612,0,0" VerticalAlignment="Top" Width="174" FontSize="20" Click="delete_Click"/>
